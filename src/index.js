@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import FirstComponent from './FirstComponent.js'
+import MyComponent from './SecondComponent'
 
 ReactDOM.render(
   <React.StrictMode>
-    <FirstComponent/>
+    
+    <MyComponent/>   {/*this is mycomponent that contains name age and */}
+    <FirstComponent/> {/*this is how we use a component*/}
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
